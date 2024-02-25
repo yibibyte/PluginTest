@@ -2,3 +2,9 @@ name: PluginTest
 version: '${project.version}'
 main: ru.craft.plugintest.PluginTest
 api-version: '1.20'
+softdepend: [ Vault ]
+author: iluserman
+description: It is simple example for run debug
+commands:
+  message:
+  spawn:
