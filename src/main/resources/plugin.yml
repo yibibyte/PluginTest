@@ -1,0 +1,4 @@
+name: PluginTest
+version: '${project.version}'
+main: ru.craft.plugintest.PluginTest
+api-version: '1.20'
