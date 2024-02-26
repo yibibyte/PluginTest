@@ -15,7 +15,7 @@ public final class PluginTest extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info(YELLOW + "Plugin testPlug have been started!");
+        getLogger().info(ChatColor.DARK_GREEN + "Plugin testPlug have been started!");
         getServer().getPluginManager().registerEvents(new EventHandler(), this);
         getCommand("message").setExecutor(new MessageCommand());
         getCommand("spawn").setExecutor(new SpawnCommand());
@@ -24,7 +24,7 @@ public final class PluginTest extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getServer().getLogger().info(RED + "I've been started!");
+        getServer().getLogger().info(ChatColor.DARK_RED + "I've been started!");
     }
 }
 
